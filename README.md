@@ -133,6 +133,7 @@ plotly
 scikit-learn
 xgboost
 joblib
+
 # 🤝 Contributing
 Fork & clone
 
@@ -146,10 +147,3 @@ Licensed under MIT. See LICENSE for details.
 “The best way to predict the future is to create it.” – Peter Drucker
 
 # Made with ❤️ by Anas
-
-Open a PR — let’s build the future of forecasting! 🚀
-
-📄 License
-Licensed under MIT. See LICENSE for details.
-
-“The best way to predict the future is to create it.” – Peter Drucker
