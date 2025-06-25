@@ -21,7 +21,7 @@ An interactive **Streamlit** app that analyzes NYC Uber pickups (Jan–Jun 2015)
 ---
 
 ## 🗂️ Project Structure
-
+```
 Uber_Trip_Analysis/
 ├── streamlit_app/
 │   ├── app/                   # 📊 Streamlit application source code
@@ -39,7 +39,7 @@ Uber_Trip_Analysis/
 ├── requirements.txt           # 📦 Required Python packages
 └── README.md                  # 📘 You're here
 
-
+```
 ---
 
 ## 🗃️ Dataset
