@@ -114,7 +114,10 @@ Recursive 24-hour ahead using latest data & features
 ![Actvspred](assets/newplot.png)
 
 2. Input Form UI
-![Form](screenshots/form.png)
+![Form](screenshots/ui.png)
+
+3. Actual vs Predicted
+![actvs](actual_vs_pred.png)
 
 ## 📈 Example Metrics
 Model	MAPE	RMSE	R²
