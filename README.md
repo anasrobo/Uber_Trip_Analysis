@@ -54,7 +54,7 @@ Edit
 
 ## ⚙️ Installation & Setup
 
-```bash
+#bash
 git clone https://github.com/anasrobo/Uber_Trip_Analysis.git
 cd Uber_Trip_Analysis
 
@@ -65,7 +65,8 @@ python -m venv venv
 # macOS/Linux
 source venv/bin/activate
 
-pip install -r requirements.txt
+
+## pip install -r requirements.txt
 🚀 Usage
 bash
 Copy
@@ -73,7 +74,7 @@ Edit
 streamlit run app.py
 Opens at http://localhost:8501
 
-Explore:
+## Explore:
 
 Actual vs Predicted trip curves (XGB, RF, GBR, Ensemble)
 
@@ -81,7 +82,7 @@ Actual vs Predicted trip curves (XGB, RF, GBR, Ensemble)
 
 Performance Metrics: MAPE, RMSE, R²
 
-🤖 ML Pipeline
+## 🤖 ML Pipeline
 Load & Preprocess
 
 Read CSV, parse Pickup_date as datetime
@@ -110,10 +111,10 @@ Forecasting
 
 Recursive 24-hour ahead using latest data & features
 
-📸 Screenshots
+## 📸 Screenshots
 Actual vs Predictions & 24-Hour Forecast
 
-📈 Example Metrics
+## 📈 Example Metrics
 Model	MAPE	RMSE	R²
 XGBoost	12.3%	450.2	0.842
 RandomForest	13.1%	478.9	0.817
@@ -122,7 +123,7 @@ Ensemble	11.5%	432.1	0.858
 
 (Actual values may vary.)
 
-📦 requirements.txt
+## 📦 requirements.txt
 text
 Copy
 Edit
@@ -133,7 +134,7 @@ plotly
 scikit-learn
 xgboost
 joblib
-🤝 Contributing
+# 🤝 Contributing
 Fork & clone
 
 Create a branch (git checkout -b feature/your-feature)
