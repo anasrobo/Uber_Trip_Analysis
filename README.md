@@ -111,7 +111,7 @@ Recursive 24-hour ahead using latest data & features
 
 # 📸 Screenshots
 1. Actual vs Predictions & 24-Hour Forecast
-![Actvspred](assets/actual_vs_new.png)
+![Actvspred](assets/vs.png)
 
 2. Input Form UI
 ![Form](assets/ui.png)
