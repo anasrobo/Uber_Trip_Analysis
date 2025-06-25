@@ -23,21 +23,22 @@ An interactive **Streamlit** app that analyzes NYC Uber pickups (Jan–Jun 2015)
 ## 🗂️ Project Structure
 
 Uber_Trip_Analysis/
-├── app.py # Streamlit application
+├── streamlit_app
+   ├── app # Streamlit application
+   ├── train_and_save_models 
+├── assets
+    ├── newplot.png 
 ├── requirements.txt # Python dependencies
 ├── uber-raw-data-janjune-15.csv # Raw dataset (512 MB) – see Dataset section
+├── notebooks
+   ├──Uber_Trip_Analysis #.ipynb file
 ├── models/
 │ ├── xgb_model.pkl
 │ ├── rf_model.pkl
 │ ├── gbr_model.pkl
 │ └── ensemble_weights.pkl
-├── screenshots/
-│ └── forecast_plot.png # Actual vs Predictions & 24-Hour Forecast
 └── README.md
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -68,9 +69,6 @@ source venv/bin/activate
 
 ## pip install -r requirements.txt
 🚀 Usage
-bash
-Copy
-Edit
 streamlit run app.py
 Opens at http://localhost:8501
 
@@ -112,7 +110,11 @@ Forecasting
 Recursive 24-hour ahead using latest data & features
 
 ## 📸 Screenshots
-Actual vs Predictions & 24-Hour Forecast
+1. Actual vs Predictions & 24-Hour Forecast
+![actvspred] (assets/newplot.png)
+
+2. Input Form UI
+![Form](screenshots/form.png)
 
 ## 📈 Example Metrics
 Model	MAPE	RMSE	R²
@@ -124,9 +126,6 @@ Ensemble	11.5%	432.1	0.858
 (Actual values may vary.)
 
 ## 📦 requirements.txt
-text
-Copy
-Edit
 streamlit
 pandas
 numpy
@@ -140,6 +139,13 @@ Fork & clone
 Create a branch (git checkout -b feature/your-feature)
 
 Commit & push
+
+# 📄 License
+Licensed under MIT. See LICENSE for details.
+
+“The best way to predict the future is to create it.” – Peter Drucker
+
+# Made with ❤️ by Anas
 
 Open a PR — let’s build the future of forecasting! 🚀
 
