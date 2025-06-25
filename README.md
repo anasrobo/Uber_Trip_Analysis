@@ -23,21 +23,21 @@ An interactive **Streamlit** app that analyzes NYC Uber pickups (Jan–Jun 2015)
 ## 🗂️ Project Structure
 
 Uber_Trip_Analysis/
-├── streamlit_app
-   ├── app # Streamlit application
-   ├── train_and_save_models 
-├── assets
-    ├── newplot.png 
-├── requirements.txt # Python dependencies
-├── uber-raw-data-janjune-15.csv # Raw dataset (512 MB) – see Dataset section
-├── notebooks
-   ├──Uber_Trip_Analysis #.ipynb file
+├── streamlit_app/
+│   ├── app/                   # 📊 Streamlit application source code
+│   ├── train_and_save_models/ # 🧠 Training scripts & model saving
+├── assets/
+│   └── newplot.png            # 📈 Sample visualization
+├── notebooks/
+│   └── Uber_Trip_Analysis     # 📓 Jupyter notebook (EDA, modeling)
 ├── models/
-│ ├── xgb_model.pkl
-│ ├── rf_model.pkl
-│ ├── gbr_model.pkl
-│ └── ensemble_weights.pkl
-└── README.md
+│   ├── xgb_model.pkl          # 🌲 XGBoost saved model
+│   ├── rf_model.pkl           # 🌳 Random Forest saved model
+│   ├── gbr_model.pkl          # 📉 Gradient Boosting model
+│   └── ensemble_weights.pkl   # 🧩 Custom ensemble weights
+├── uber-raw-data-janjune-15.csv  # 📁 Raw Uber data (~512 MB)
+├── requirements.txt           # 📦 Required Python packages
+└── README.md                  # 📘 You're here
 
 
 ---
@@ -111,7 +111,7 @@ Recursive 24-hour ahead using latest data & features
 
 # 📸 Screenshots
 1. Actual vs Predictions & 24-Hour Forecast
-![Actvspred](assets/vs.png)
+![Actvspred](assets/newplot.png)
 
 2. Input Form UI
 ![Form](assets/ui.png)
