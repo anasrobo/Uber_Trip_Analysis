@@ -117,7 +117,7 @@ Recursive 24-hour ahead using latest data & features
 ![Form](assets/ui.png)
 
 3. Actual vs Predicted
-![actvs](assets/actual_vs_new.png)
+![vs](assets/actual_vs_new.png)
 
 ## 📈 Example Metrics
 Model	MAPE	RMSE	R²
